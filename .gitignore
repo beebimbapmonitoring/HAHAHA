@@ -1,0 +1,63 @@
+# System Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE & Editor
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Node.js (if you add backend)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Python (if you add backend)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.Python
+
+# Build & Distribution
+dist/
+build/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+coverage/
+.nyc_output/
+
+# Local Development
+local_server.log
+debug.log
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Logs
+logs/
+*.log
+
+# Sensitive Data (never commit these!)
+config.json
+secrets.json
+api_keys.json
+credentials.json
+.htaccess
